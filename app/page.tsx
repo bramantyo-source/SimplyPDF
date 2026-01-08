@@ -205,7 +205,7 @@ export default function ConverterPage() {
   const successCount = files.filter(f => f.status === 'success').length;
   const hasReadyFiles = files.some(f => f.status === 'ready');
 
-  // Prevent hydration mismatch
+  // Prevent hydration mismatch 
   if (!mounted) {
     return null;
   }
@@ -366,7 +366,7 @@ export default function ConverterPage() {
       {/* Footer */}
       <footer className="border-t px-6 py-6" style={{ borderColor: 'var(--border-color)' }}>
         <div className="max-w-2xl mx-auto flex items-center justify-between text-sm text-gray-500">
-          <span>© 2026 Kelompok 5 TI</span>
+          <span>© 2026 Kelompok 4 TI</span>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white transition">Privacy</a>
             <a href="#" className="hover:text-white transition">Terms</a>
