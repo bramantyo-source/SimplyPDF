@@ -40,7 +40,7 @@
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/bramantyoiswara/SimplyPDF.git
+   https://github.com/bramantyo-source/SimplyPDF.git
    cd SimplyPDF
    ```
 
