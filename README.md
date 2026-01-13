@@ -94,7 +94,7 @@ converter-pdf/
 | Dokumen | Deskripsi |
 |---------|-----------|
 | [Style Guide](./docs/style-guide.md) | Warna, tipografi, komponen UI |
-| [Wireframe & Navigasi](./docs/wireframe-navigation.md) | Arsitektur dan alur navigasi |
+| [Wireframe & Navigasi]() | Arsitektur dan alur navigasi |
 | [API Integration](./docs/api-integration.md) | Catatan teknis integrasi API |
 
 ---
