@@ -213,35 +213,35 @@ export default function ConverterPage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg-primary)' }}>
       {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 border-b" style={{ borderColor: 'var(--border-color)' }}>
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
-            <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+      <header className="header-container flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b" style={{ borderColor: 'var(--border-color)' }}>
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4z" />
             </svg>
           </div>
-          <span className="text-lg font-semibold text-white">DocConverter</span>
+          <span className="text-base sm:text-lg font-semibold text-white">DocConverter</span>
         </div>
-        <div className="flex items-center gap-4">
-          <button className="text-sm text-gray-400 hover:text-white transition">Log In</button>
-          <button className="text-sm px-4 py-2 border rounded-lg text-white hover:bg-white/5 transition" style={{ borderColor: 'var(--border-color)' }}>
+        <div className="header-auth flex items-center gap-2 sm:gap-4">
+          <button className="text-xs sm:text-sm text-gray-400 hover:text-white transition">Log In</button>
+          <button className="text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 border rounded-lg text-white hover:bg-white/5 transition" style={{ borderColor: 'var(--border-color)' }}>
             Sign Up
           </button>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center px-6 py-12">
+      <main className="flex-1 flex flex-col items-center px-4 sm:px-6 py-8 sm:py-12">
         {/* Hero */}
-        <h1 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
+        <h1 className="hero-title text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-3 sm:mb-4 px-2">
           Document to PDF
         </h1>
-        <p className="text-gray-400 text-center mb-12 max-w-md">
+        <p className="hero-subtitle text-sm sm:text-base text-gray-400 text-center mb-8 sm:mb-12 max-w-md px-4">
           Fast, secure, and high-quality conversion for all your documents.
         </p>
 
         {/* Upload Card */}
-        <div className="card w-full max-w-2xl p-6">
+        <div className="card w-full max-w-2xl p-4 sm:p-6 mx-2">
           {/* Upload Zone */}
           <div
             className={`upload-zone p-8 mb-6 text-center ${isDragOver ? 'drag-over' : ''}`}
@@ -336,13 +336,13 @@ export default function ConverterPage() {
 
           {/* Action Buttons */}
           {files.length > 0 && (
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-gray-500">
+            <div className="action-buttons flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+              <span className="text-xs sm:text-sm text-gray-500 text-center sm:text-left">
                 {successCount > 0 ? `${successCount} file${successCount > 1 ? 's' : ''} ready for download` : ''}
               </span>
-              <div className="flex items-center gap-3">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3">
                 {successCount > 0 && (
-                  <button onClick={downloadAll} className="btn-secondary text-sm">
+                  <button onClick={downloadAll} className="btn-secondary text-xs sm:text-sm justify-center">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
@@ -350,7 +350,7 @@ export default function ConverterPage() {
                   </button>
                 )}
                 {hasReadyFiles && (
-                  <button onClick={convertAll} className="btn-primary text-sm">
+                  <button onClick={convertAll} className="btn-primary text-xs sm:text-sm justify-center">
                     Convert All to PDF
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -364,10 +364,10 @@ export default function ConverterPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t px-6 py-6" style={{ borderColor: 'var(--border-color)' }}>
-        <div className="max-w-2xl mx-auto flex items-center justify-between text-sm text-gray-500">
+      <footer className="border-t px-4 sm:px-6 py-4 sm:py-6" style={{ borderColor: 'var(--border-color)' }}>
+        <div className="footer-container max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0 text-xs sm:text-sm text-gray-500">
           <span>© 2026 Kelompok 4 TI</span>
-          <div className="flex items-center gap-6">
+          <div className="footer-links flex items-center gap-4 sm:gap-6">
             <a href="#" className="hover:text-white transition">Privacy</a>
             <a href="#" className="hover:text-white transition">Terms</a>
             <a href="#" className="hover:text-white transition">Contact</a>

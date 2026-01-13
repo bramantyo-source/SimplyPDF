@@ -211,3 +211,195 @@ body {
 .btn-secondary:active {
   transform: scale(0.95);
 }
+
+/* ========================================
+   RESPONSIVE DESIGN - Mobile First
+   ======================================== */
+
+/* Tablet breakpoint (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  .header-container {
+    padding: 12px 16px;
+  }
+
+  .header-auth {
+    gap: 8px;
+  }
+
+  .header-auth button {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  /* Hero section */
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    padding: 0 16px;
+  }
+
+  /* Card adjustments */
+  .card {
+    margin: 0 8px;
+    padding: 16px;
+  }
+
+  /* Upload zone */
+  .upload-zone {
+    padding: 24px 16px;
+  }
+
+  .upload-zone p {
+    font-size: 14px;
+  }
+
+  /* File item */
+  .file-item {
+    padding: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .file-item .flex-1 {
+    min-width: calc(100% - 60px);
+  }
+
+  /* Buttons */
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  /* Action buttons container */
+  .action-buttons {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .action-buttons .flex {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .action-buttons button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+/* Mobile breakpoint (max-width: 480px) */
+@media (max-width: 480px) {
+  /* Hero section */
+  .hero-title {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  /* Card */
+  .card {
+    border-radius: 12px;
+    margin: 0 4px;
+  }
+
+  /* Upload zone */
+  .upload-zone {
+    padding: 20px 12px;
+  }
+
+  .upload-zone .w-14 {
+    width: 48px;
+    height: 48px;
+  }
+
+  .upload-zone .w-7 {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* File item compact mode */
+  .file-item {
+    padding: 10px;
+  }
+
+  .file-item .w-10 {
+    width: 36px;
+    height: 36px;
+  }
+
+  .file-item .w-5 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .file-item p {
+    font-size: 13px;
+  }
+
+  .file-item span {
+    font-size: 11px;
+  }
+
+  /* Buttons */
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 14px;
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .btn-primary svg,
+  .btn-secondary svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Icon button */
+  .icon-btn {
+    padding: 6px;
+  }
+
+  .icon-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Extra small screens (max-width: 360px) */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .upload-zone p:first-of-type {
+    font-size: 13px;
+  }
+
+  .upload-zone p:last-of-type {
+    font-size: 11px;
+  }
+}
