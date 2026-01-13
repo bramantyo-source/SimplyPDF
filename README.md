@@ -136,5 +136,5 @@ MIT License - feel free to use this project for educational purposes.
 ---
 
 <p align="center">
-  Made with ❤️ by Kelompok 4 TI
+  Made with by Kelompok 4 TI
 </p>
