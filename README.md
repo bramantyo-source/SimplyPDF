@@ -125,12 +125,13 @@ npm run lint     # Run ESLint
 
 ## 👥 Tim Pengembang
 
-**Kelompok 4 - Teknik Informatika**
--Rafael
--Fatih
--Syafiq
--Alfa
-
+**Kelompok 4**
+| Nama | Role | Tanggung Jawab |
+| :--- | :--- | :--- |
+| **Rafael Bramantyo Buana Putra** | Lead Developer | System Architect, Core Logic, & API Integration |
+| **Akhmad Fatih Jalaluddin Rumi** | Presentation Specialist | Penyusunan Materi PPT & Presentator Utama |
+| **Alfa** | QA & Tester | Pengujian Sistem (Testing) & Dokumentasi Bug |
+| **Syafiq** | Technical Documentarian | Dokumentasi Teknis & Penyusunan Laporan |
 ---
 
 ## 📄 License
