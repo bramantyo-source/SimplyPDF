@@ -126,6 +126,10 @@ npm run lint     # Run ESLint
 ## 👥 Tim Pengembang
 
 **Kelompok 4 - Teknik Informatika**
+-Rafael
+-Fatih
+-Syafiq
+-Alfa
 
 ---
 
