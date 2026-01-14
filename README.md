@@ -6,6 +6,8 @@
 
 **DocConverter** adalah aplikasi web konversi dokumen modern yang dirancang untuk memudahkan pengguna mengubah format dokumen Office (Word, Excel, PowerPoint) menjadi PDF dengan cepat dan efisien.
 
+![Tampilan Aplikasi DocConverter](docconverter.png)
+
 Proyek ini dikembangkan sebagai tugas akhir mata kuliah **Pemrograman Frontend** oleh **Kelompok 4 - Teknologi Informasi**.
 
 ## ✨ Fitur
