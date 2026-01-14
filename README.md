@@ -1,13 +1,12 @@
-# 📄 DocConverter
+# DocConverter 📄➡️📂
 
-> Aplikasi web untuk mengkonversi dokumen Office ke PDF dengan cepat dan mudah.
+![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-![Next.js](https://img.shields.io/badge/Next.js-16.1-black?logo=next.js)
-![React](https://img.shields.io/badge/React-19.2-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)
+**DocConverter** adalah aplikasi web konversi dokumen modern yang dirancang untuk memudahkan pengguna mengubah format dokumen Office (Word, Excel, PowerPoint) menjadi PDF dengan cepat dan efisien.
 
----
+Proyek ini dikembangkan sebagai tugas akhir mata kuliah **Pemrograman Frontend** oleh **Kelompok 4 - Teknologi Informasi**.
 
 ## ✨ Fitur
 
